@@ -1,0 +1,6 @@
+print('Boa tarde senhor estamos aqui para realizar o fim do seu aluguel!')
+km = int (input('Quantos quilômetros foram percorridos? '))
+d = int (input ('Por quantos dias ele foi alugado senhor? '))
+r = round((km*0.15)+(d*60))
+print(f'O valor a ser pago pelo seu aluguel com a Mottu é de: R${r}')
+print('Aceitamos o pagamento em cartão de débito, crédito e no pix.')
